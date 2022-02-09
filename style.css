@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    height:100%;
+    width:100%;
+}
+/*--------------------------------navbar--------------------------------------------*/ 
+
+#top{
+    height:1.6vh;
+    background: linear-gradient(to Right ,rgb(255, 105, 18),rgb(248, 110, 30), rgb(192, 0, 134));
+}
+
+#navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 40px;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    flex-wrap: wrap;    
+}
+#iconone:hover{
+    color:gray;
+    cursor: pointer; 
+}
+#logo{
+    
+    padding: 10px 0;
+}
+#logoin:hover{
+    color:gray;
+    cursor: pointer; 
+}
+
+.fas{
+    padding:0 10px 0 0;
+    text-align: top;
+    
+}
+
+#navbar ol{
+    list-style-type:none;
+    padding: 10px 0;
+    
+
+}
+#navbar ol li{
+    display: inline-block;
+    padding-right: 15px;
+    font-weight: 500;    
+}
+#navbar ol li:hover{
+    color:gray;
+    cursor: pointer; 
+
+}
+#navbar2{
+    display:flex;
+    /* justify-content:space-between; */
+    padding:5px 35px;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    align-items: center;
+    flex-wrap: wrap;
+}
+#navbar2 div{
+    margin-right:20px;
+}
+
+
+#logotwo{
+    width:70px;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+#search{
+    height:47px;
+    width:65vw;
+    border:transparent;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+}
+#searchb{
+    height:47px;
+    width:100px;
+    border:transparent;
+    background-color: rgb(26, 25, 25);
+    color:white;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    
+}
+#searchb:hover{
+    cursor: pointer;
+}
+#signup{
+    height:45px;
+    width:100px;
+    border:1px solid rgb(226, 223, 223);
+    font-weight: 500;
+    
+    background-color: transparent;
+}
+#signup:hover{
+    color:gray;
+    border-color: rgb(241, 241, 241);
+    cursor: pointer; 
+}
+#signin{
+    height:45px;
+    width:100px;
+    
+    border:none;
+    
+    font-weight: 500;
+    
+    background-color: transparent;
+}
+#signin:hover{
+    color:gray;
+    cursor: pointer; 
+
+}
+
+
+/*-----------------------------------herosection---------------------------------------*/
+
+#herosection{
+    background:rgba(0, 0, 0, 0.151) url("https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 10% 25%;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+}
+
+#herohead{
+    font-size:72px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* padding:0  50px 50px 50px; */
+    line-height: 90px;
+    text-align: center;
+    margin:3% 10%;
+}
+#herosection p{
+    /* margin:30px 160px; */
+    padding: 30px 15%;
+    font-size: 14px;
+}
+#herosection h1{
+    font-size:30px ;
+    margin:0 20%;
+}
+#herosection button{
+    margin: 18px;
+}
+#bone{
+    border-style:solid;
+    border-color: rgb(250, 215, 19);
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 1em;
+    font-weight:700;
+    color:black;
+    background-color: rgb(250, 215, 19);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.308) ;
+    
+    
+}
+#bone:hover{
+    cursor: pointer;
+}
+    
+
+#btwo{
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 1em;
+    color:white;
+    font-weight:700;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(199, 39, 79);
+
+}
+#btwo:hover{
+    cursor: pointer;
+}
+
+/*----------------------------section2------------------------------------------*/
+#two{
+    justify-content: center;
+    text-align: center;
+    /* padding:50px 430px; */
+    /* margin:50px 430px; */
+    padding: 5% 30%;
+    font-size: 16px;
+    padding-bottom: 150px;
+}
+#two h1{
+    font-size:30px;
+    margin:30px 30px ;
+    color:rgb(45, 46, 46);
+    
+}
+
+/*----------------------------section3------------------------------------------*/
+
+#three{
+    justify-content: center;
+    text-align: center;
+    padding:80px 0;
+    
+    
+    background: rgba(0, 0, 0, 0.151) url("https://static.npmjs.com/3dc2ca3d2e53fc894b904d917cf90015.png");
+    color: white;
+    font-size: 16px;
+    background-blend-mode: darken;
+}
+#three h1{
+    font-size:40px;
+    /* margin-bottom:30px; */
+    /* margin:50px 430px; */
+    
+}
+#three p{
+    /* margin:50px 430px; */
+    /* width:35%; */
+    margin: 30px 30%;
+}
+
+/*----------------------------section3------------------------------------------*/
+#four{
+    justify-content: center;
+    text-align: center;
+    /* padding:50px 450px;
+     */
+     /* margin:50px 430px; */
+}
+#four h1{
+    font-size:35px;
+    
+    color:rgb(45, 46, 46);
+    /* width: 40%; */
+    margin:50px 30%;
+    padding-bottom: 5%;
+   
+}
+
+
+
+/*-------------------------------footer----------------------------------------------*/
+
+
+#footer{
+    display:flex;
+    justify-content: space-between;
+    padding:60px 200px 30px 50px;
+    color:gray;
+    border-top: 1px solid rgb(226, 223, 223);
+    flex-wrap: wrap;
+}
+footer ul{
+    list-style-type:none;
+    
+    
+
+}
+footer ul li{
+    padding-bottom:10px;
+}
+#heed{
+    color:rgb(65, 61, 61);
+    font-weight: 700;
+    letter-spacing:3px;
+}
+#icons img{
+    display:block ;
+    margin-bottom:50px;
+    border-radius: 3px;
+    width:60px;
+}
+
+
+/*------------------------------------------------Responsive------------------------------------------*/
+
+@media only screen and (max-width: 800px){
+
+#logo{
+    display:none;
+}
+#search{
+    width:50vw;
+}
+#herosection{
+    padding: 0;
+    
+}
+#herohead{
+    padding-top: 80px;
+    font-size:65px;
+}
+#two{
+    padding: 10% 5%;
+    
+}
+#three{
+    padding: 10% 5%;
+    
+}
+#three p{
+    margin: 10% 5%;
+    
+}
+#four h1{
+    margin: 10% 5%;
+    
+}
+#navbar2{
+    padding: 2% 5%;
+}
+#navbar2 div{
+    margin:1%;
+}
+#heed{
+    padding-top:50px;
+}
+#order{
+    align-self:flex-end;
+    
+}
+}
+
+
+
+
+
+
