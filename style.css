@@ -8,6 +8,7 @@
 body{
     height:100%;
     width:100%;
+    /* font-size: 100%; */
 }
 /*--------------------------------navbar--------------------------------------------*/ 
 
@@ -25,6 +26,10 @@ body{
     font-size: 0.9rem;
     flex-wrap: wrap;    
 }
+/* #iconone{
+    margin-top:-20px;
+} */
+
 #iconone:hover{
     color:gray;
     cursor: pointer; 
@@ -338,6 +343,20 @@ footer ul li{
     align-self:flex-end;
     
 }
+}
+@media only screen and (max-width: 480px){
+.buttont{
+    order:2;
+    
+}
+
+.one{
+    order:1;
+}
+.two{
+    order:3;
+}
+
 }
 
 
