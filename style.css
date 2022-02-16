@@ -298,7 +298,12 @@ footer ul li{
 
 /*------------------------------------------------Responsive------------------------------------------*/
 
-@media only screen and (max-width: 800px){
+@media(max-width: 800px){
+
+    #navbar{
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
 
 #logo{
     display:none;
@@ -344,7 +349,7 @@ footer ul li{
     
 }
 }
-@media only screen and (max-width: 480px){
+@media(max-width: 480px){
 .buttont{
     order:2;
     
@@ -356,6 +361,26 @@ footer ul li{
 .two{
     order:3;
 }
+
+}
+
+@media(max-width: 480px){
+    #herohead{
+        font-size:32px;
+    }
+    #herosection h1, #two h1,#three h1,#four h1{
+        font-size:18px;
+        text-align:center;
+        padding:0;
+
+    }
+    #bone,#btwo{
+        padding:10px;
+    }
+    #paratwo{
+        font-size:10px;
+    }
+
 
 }
 
